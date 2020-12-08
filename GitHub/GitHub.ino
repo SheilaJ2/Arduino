@@ -9,6 +9,11 @@ void setup() {
 }
 
 void loop() {
+  blinkLed();
+
+}
+
+void blinkLed() {
   digitalWrite(ledPin, HIGH);
   delay(500);
   digitalWrite(ledPin, LOW);
@@ -18,7 +23,4 @@ void loop() {
   delay(500);
   digitalWrite(ledPin2, LOW);
   delay(500);
-  
-  // put your main code here, to run repeatedly:
-
 }
